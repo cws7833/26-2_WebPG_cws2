@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANIMAL MOTION STUDY</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="poster">
+      <header>
+        <p class="edition">INTERACTIVE WEB EXPERIMENT / 2026</p>
+        <h1>ANIMAL MOTION STUDY</h1>
+        <p class="subtitle">An Exploration of Movement</p>
+      </header>
+
+      <!-- 뱀은 다섯 개의 기본 도형, 배경 풀은 별도의 삼각형 다섯 개입니다. -->
+      <div
+        class="stage"
+        tabindex="0"
+        role="group"
+        aria-label="Interactive snake motion study. Click to choose a target. Use arrow keys to choose a direction and Enter or Space to move."
+      >
+        <!-- 장식용 풀은 클릭을 막지 않고 뱀 뒤에 배치됩니다. -->
+        <div class="grass" aria-hidden="true">
+          <div class="grass-blade"></div>
+          <div class="grass-blade"></div>
+          <div class="grass-blade"></div>
+          <div class="grass-blade"></div>
+          <div class="grass-blade"></div>
+        </div>
+        <div class="world" aria-hidden="true">
+          <div class="shape tongue"><div class="tongue-fill"></div></div>
+          <div class="shape head"></div>
+          <div class="shape segment body-one"></div>
+          <div class="shape segment body-two"></div>
+          <div class="shape tail"></div>
+        </div>
+      </div>
+
+      <footer>
+        <p class="description">
+          Exploring the rhythm, direction, and behavior of natural movement
+          through geometric forms.
+        </p>
+        <div class="event">
+          <p>DEC 10, 2026</p>
+          <p>10:00 AM – 06:00 PM</p>
+        </div>
+        <div class="venue">
+          <p>DIGITAL ART EXHIBITION</p>
+          <p>Organized by: MYONGJI UNIVERSITY</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
